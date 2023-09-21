@@ -1,11 +1,11 @@
 {
-  "name": "ANYA BOT V2",
+  "name": "anya-bot-v2",
   "version": "4.0.0",
   "description": "ANYA BOT , Multi-Conexões, funcionamento mais rápido, e hospedado na heroku ou em outro servidor o seu celular funcionará sem internet.",
   "main": "index.js",
   "scripts": {
-    "start": "sh start.sh",
-        "test": "node index.js"
+    "start": "sh reyler.sh",
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/",
   "dependencies": {
-"@adiwajshing/keyed-db": "^0.2.4",
-    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys", 
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
     "@hapi/boom": "^9.1.4",
     "@protobufjs/base64": "^1.1.2",
     "aki-api": "^6.0.8",
